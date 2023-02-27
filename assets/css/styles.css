@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+hr {
+    border-top: 0 solid hsl(215, 51%, 70%);
+    opacity: 0.1;
+}
+
+#main {
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-view {
+    background-color: hsl(216, 50%, 16%);
+    padding: 1.2rem;
+    max-width: 18rem;
+    border-radius: 0.8rem;
+}
+
+.card-view .coin-name:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-view .preview {
+    width: 100%;
+    border-radius: 0.4rem;
+}
+
+.card-view .coin-name {
+    font-weight: 600;
+    font-size: 1.125rem;
+    margin-top: 0.875rem;
+    margin-bottom: 0.875rem;
+}
+
+.card-view .description {
+    font-size: 0.9375rem;
+    font-weight: 400;
+    opacity: 0.8;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-view .box-contain1 {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+    align-items: center;
+}
+
+.card-view .box-contain1 .price {
+    display: flex;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: hsl(178, 100%, 50%);
+}
+
+.card-view .box-contain1 .icon-img {
+    height: 0.875rem;
+    margin-right: 0.4rem;
+}
+
+.card-view .box-contain1 .price,
+.card-view .box-contain1 .time-left {
+    align-items: center;
+}
+
+.card-view .box-contain1 .time-left {
+    display: flex;
+    position: absolute;
+    right: 0;
+    font-size: 0.75rem;
+    font-weight: 400;
+    opacity: 0.8;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-view .box-contain2 {
+    display: flex;
+    align-items: center;
+    margin-top: 0.875rem;
+    margin-bottom: 0.875rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.card-view .box-contain2 .seller:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-view .box-contain2 .avatar {
+    width: 1.8rem;
+    margin-right: 1rem;
+    border-radius: 100%;
+    border: 0.001rem solid hsl(0, 0%, 100%);
+}
+
+.card-view .box-contain2 .creation {
+    color: hsl(215, 51%, 70%);
+    margin-right: 0.25rem;
+}
+
+
+
+/* .attribution {
+
+} */
