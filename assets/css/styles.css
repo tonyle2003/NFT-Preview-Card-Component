@@ -2,11 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 hr {
     border-top: 0 solid hsl(215, 51%, 70%);
     opacity: 0.1;
+}
+
+a {
+    color: hsl(0, 0%, 100%);
 }
 
 #main {
@@ -26,7 +31,11 @@ hr {
     border-radius: 0.8rem;
 }
 
-.card-view .coin-name:hover {
+.card-view a {
+    text-decoration: none;
+}
+
+.card-view .coin-name:hover a{
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
@@ -94,7 +103,7 @@ hr {
     font-weight: 400;
 }
 
-.card-view .box-contain2 .seller:hover {
+.card-view .box-contain2 .seller:hover  a {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
